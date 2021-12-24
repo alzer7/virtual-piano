@@ -1,0 +1,58 @@
+body {
+    align-items: center;
+    background-color: mediumseagreen;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+.black-keys {
+    left: calc(75px / 2);
+    position: absolute;
+    display: flex;
+}
+
+.white-keys {
+    display: flex;
+}
+
+.black-keys kbd#T {
+    margin-left: 75px;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: end;
+    border: 2px solid grey;
+    font-size: 24px;
+    font-weight: 600;
+    height: 200px;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+    user-select: none;
+    width: 75px;
+}
+
+.white-keys kbd {
+    background-color: white;
+    display: flex;
+    align-items: end;
+    border: 2px solid grey;
+    font-size: 24px;
+    font-weight: 600;
+    height: 300px;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+    user-select: none;
+    width: 75px;
+}
+
